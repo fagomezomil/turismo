@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navigation from './Navigation.jsx';
+import Header from './Header.jsx';
+import Artistas from './Artistas.jsx';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Coleccion from './Coleccion';
+import Agregar from './Agregar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        < Header />
+        < Navigation />
+        <Routes>
+          <Route exact path="/coleccion" element={<Coleccion/>}/>
+          <Route exact path="/artistas" element={<Artistas/>}/>
+          <Route exact path="/agregar" element={<Agregar/>}/>
+        </Routes>  
+      </Router>
     </div>
   );
 }
