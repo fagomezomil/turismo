@@ -2,13 +2,13 @@ import React from 'react'
 import { Nav, Navbar, Container} from 'react-bootstrap';
 import './App.css';
 import {  NavLink } from "react-router-dom";
-
+import Header from './Header.jsx';
 
 
 export default function Navigation() {
   return (
     <div >
-        
+      <Header />
       <Navbar variant="dark" className='Nav-Style Font' expand="lg">
  
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

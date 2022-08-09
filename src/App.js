@@ -2,7 +2,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './Navigation.jsx';
-import Header from './Header.jsx';
+
 import Artistas from './Artistas.jsx';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Coleccion from './Coleccion';
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        < Header />
+
         < Navigation />
         <Routes>
           <Route exact path="/coleccion" element={<Coleccion/>}/>

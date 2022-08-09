@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css';
 import { Button, FormControl, Form } from 'react-bootstrap';
+import Logo from './img/logo.png'
 
 export default function header() {
   return (
@@ -8,7 +9,7 @@ export default function header() {
         <div className="containter header-style Font">
           <div className="row">
           <div className="col-2">
-                <img src="https://images.squarespace-cdn.com/content/v1/58879e479f74566626bb7908/1549391287988-R3XZ3IQ4DI007LZOMSUL/RC+LOGO+White+Small.png" alt="" width={'200px'}/>
+                <img src={Logo} alt="" width={'150px'}/>
             </div>
             <div className="col-7"></div>
             <div className="col-3  abajo d-flex pb-4">
