@@ -1,23 +1,31 @@
 // import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navigation from './Navigation.jsx';
+import Header from './Header.jsx';
 
-import Artistas from './Artistas.jsx';
+import Tucuman from './Tucuman.jsx';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Coleccion from './Coleccion';
-import Agregar from './Agregar';
+import Planifica from './Planifica';
+import Imperdibles from './Imperdibles';
+import Inicio from './Inicio';
+import Naturaleza from './Naturaleza';
+import HistoriaCultura from './HistoriaCultura';
+
+
 
 function App() {
   return (
     <div className="App">
       <Router>
 
-        < Navigation />
+        < Header />
         <Routes>
-          <Route exact path="/coleccion" element={<Coleccion/>}/>
-          <Route exact path="/artistas" element={<Artistas/>}/>
-          <Route exact path="/agregar" element={<Agregar/>}/>
+          <Route exact path="/" element={<Inicio/>}/>
+          <Route exact path="/tucuman" element={<Tucuman/>}/>
+          <Route exact path="/planifica" element={<Planifica/>}/>
+          <Route exact path="/imperdibles" element={<Imperdibles/>}/>
+          <Route exact path="/naturaleza" element={<Naturaleza/>}/>
+          <Route exact path="/historia-cultura" element={<HistoriaCultura/>}/>
         </Routes>  
       </Router>
     </div>
