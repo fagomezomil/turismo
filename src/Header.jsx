@@ -8,7 +8,7 @@ import Logo from "./img/marcatucuman.svg";
 export default function header() {
   return (
     <div>
-      <div className="container-fluid header-style Font" sticky="top">
+      <div className="container-fluid header-style Font">
         <div className="row">
           <div className="col-10">
             <Navbar variant="light" className="Font" expand="lg">
