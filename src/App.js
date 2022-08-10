@@ -2,6 +2,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header.jsx';
+import Header2 from './Header2.jsx'
 
 import Tucuman from './Tucuman.jsx';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
@@ -12,13 +13,13 @@ import Naturaleza from './Naturaleza';
 import HistoriaCultura from './HistoriaCultura';
 
 
-
 function App() {
   return (
     <div className="App">
       <Router>
 
-        < Header />
+        {/* <Header/> */}
+        <Header2/>
         <Routes>
           <Route exact path="/" element={<Inicio/>}/>
           <Route exact path="/tucuman" element={<Tucuman/>}/>
