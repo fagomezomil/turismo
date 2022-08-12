@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import Logo from "./img/marcatucuman.svg";
 
+
 export default function header2() {
   return (
     <div className="container-fluid header-style ">

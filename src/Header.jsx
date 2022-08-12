@@ -46,6 +46,7 @@ export default function header() {
           <div className="col-3 col-xl-1 col-lg-2">
             <img src={Logo} alt="" className="logo-header" />
           </div>
+          
         </div>
       </div>
     </div>
