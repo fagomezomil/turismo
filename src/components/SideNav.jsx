@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/side-nav.css"
+import Idea from "../img/idea.svg"
 
 const SideBar = props => {
   const sidebarClass = props.isOpen ? "sidebar open" : "sidebar";
@@ -9,7 +10,7 @@ const SideBar = props => {
       <div> Me Too! </div>
       <div> Me Three! </div>
       <button onClick={props.toggleSidebar} className="sidebar-toggle">
-      a
+      <img src={Idea} alt="" />
       </button>
     </div>
   );

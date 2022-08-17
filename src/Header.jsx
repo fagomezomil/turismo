@@ -15,28 +15,28 @@ export default function header() {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                  <Nav.Link to="/" as={NavLink} className="px-3">
+                  <Nav.Link to="/" as={NavLink} className="enlaceNav px-3" activeClassName="active">
                     Inicio
                   </Nav.Link>
-                  <Nav.Link to="/tucuman" as={NavLink} className="px-3">
+                  <Nav.Link to="/tucuman" as={NavLink} className="enlaceNav px-3" activeClassName="active">
                     Tucumán
                   </Nav.Link>
-                  <Nav.Link to="/Planifica" as={NavLink} className="px-3">
+                  <Nav.Link to="/Planifica" as={NavLink} className="enlaceNav px-3" activeClassName="active">
                     Planificá
                   </Nav.Link>
-                  <Nav.Link to="/Imperdibles" as={NavLink} className="px-3">
+                  <Nav.Link to="/Imperdibles" as={NavLink} className="enlaceNav px-3" activeClassName="active">
                     Imperdibles
                   </Nav.Link>
-                  <Nav.Link to="/Naturaleza" as={NavLink} className="px-3">
+                  <Nav.Link to="/Naturaleza" as={NavLink} className="enlaceNav px-3" activeClassName="active">
                     Naturaleza
                   </Nav.Link>
-                  <Nav.Link to="/historia-cultura" as={NavLink} className="px-3">
+                  <Nav.Link to="/historia-cultura" as={NavLink} className="enlaceNav px-3" activeClassName="active">
                     Historia y Cultura
                   </Nav.Link>
-                  <Nav.Link to="/entretenimiento" as={NavLink} className="px-3">
+                  <Nav.Link to="/entretenimiento" as={NavLink} className="enlaceNav px-3" activeClassName="active">
                     Entretenimiento
                   </Nav.Link>
-                  <Nav.Link to="/para-privados" as={NavLink} className="px-3">
+                  <Nav.Link to="/para-privados" as={NavLink} className="enlaceNav px-3" activeClassName="active">
                     Tucumán para privados
                   </Nav.Link>
                 </Nav>
