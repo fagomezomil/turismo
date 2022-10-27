@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Video1 from '../video/video.mp4'
+import Video1 from '../video/video1kayak.mp4'
+import Video2 from '../video/vide2cerrocruz.mp4'
 // import Slide2 from '../img/slide/slide2.jpg'
 // import Slide3 from '../img/slide/slide3.jpg'
 import "../css/videoSlideStyle.css"
@@ -35,7 +36,7 @@ function VideoSlide() {
         <video
           autoPlay loop muted
           className="videoContainer"
-          src={Video1}
+          src={Video2}
           alt="First slide"
         />
 

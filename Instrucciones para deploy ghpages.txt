@@ -1,0 +1,23 @@
+Instrucciones: 
+
+1 Tener lista nuestra aplicación para desplegar. 
+
+    Github Pages solo despliega páginas estáticas. 
+
+2 Crear un nuevo repositorio. 
+
+    Puede ser a través de la consola o en el sitio web. 
+
+3 Instalar gh-pages: npm install gh-pages --save-dev
+
+4 En el archivo package.json agregar las siguientes líneas:
+
+    Con "homepage" indicamos dónde se va a desplegar el sitio. 
+    Con predeploy compilamos la aplicación. 
+    Con deploy lo desplegamos en github.
+
+    en las primeras lineas
+   - "homepage": "https://{Github Username}.github.io/{NombreRepo}"
+   dentro de scripts
+   - "predeploy": "npm run build"
+   - "deploy": "gh-pages -d build"
