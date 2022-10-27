@@ -1,19 +1,21 @@
 // import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Header.jsx';
-import Header2 from './Header2.jsx'
+import Header from './components/Header'
 
 import React, { useState } from "react";
-import Tucuman from './Tucuman.jsx';
+import Tucuman from './pages/Tucuman.jsx';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Planifica from './Planifica';
-import Imperdibles from './Imperdibles';
-import Inicio from './Inicio';
-import Naturaleza from './Naturaleza';
-import HistoriaCultura from './HistoriaCultura';
+import Planifica from './pages/Planifica';
+import Imperdibles from './pages/Imperdibles';
+import Inicio from './pages/Inicio';
+import Naturaleza from './pages/Naturaleza';
+import HistoriaCultura from './pages/HistoriaCultura';
 import SideNav from './components/SideNav';
 
+// PARA SUMAR EL CLIMA
+// https://www.npmjs.com/package/react-open-weather
+// https://openweathermap.org/appid
 
 function App() {
   const [sidebarOpen, setSideBarOpen] = useState(false);
@@ -26,7 +28,7 @@ function App() {
 
         {/* <Header/> */}
         <SideNav isOpen={sidebarOpen} toggleSidebar={handleViewSidebar} />
-        <Header2/>
+        <Header/>
         <Routes>
           <Route exact path="/" element={<Inicio/>}/>
           <Route exact path="/tucuman" element={<Tucuman/>}/>
@@ -34,7 +36,7 @@ function App() {
           <Route exact path="/imperdibles" element={<Imperdibles/>}/>
           <Route exact path="/naturaleza" element={<Naturaleza/>}/>
           <Route exact path="/historia-cultura" element={<HistoriaCultura/>}/>
-        </Routes>  
+        </Routes>
       </Router>
     </div>
   );

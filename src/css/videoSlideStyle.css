@@ -1,0 +1,55 @@
+.zDown {
+    z-index: -10;
+    top: 100px;
+}
+
+.videoContainer {
+    width: 100%;
+
+    height: 830px;
+    object-fit: cover;
+
+}
+
+.textVideo {
+    min-width: 300px;
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    margin-right: 10%;
+    z-index: 1;
+
+}
+.textVideo p {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: clamp(37pt, 10vw, 65pt);
+    line-height: 1;
+    text-shadow: 7px 6px 9px rgba(0,0,0,0.8);
+    margin-bottom: 30px;
+}
+.textVideo button {
+    background: rgba(125, 190, 13);
+    margin-top: 20px;
+    text-decoration: none;
+    border: 0;
+    color: white;
+    padding: 7px 20px;
+    font-weight: 600
+}
+
+.highlight {
+    margin-right: 25%;
+
+}
+.downTextVideo {
+    background: rgba(125, 190, 13, 0.8);
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: clamp(22pt, 5vw, 31pt);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+

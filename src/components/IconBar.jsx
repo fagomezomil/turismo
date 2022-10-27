@@ -1,8 +1,10 @@
 import React from 'react'
-import '../css/BarraIconos.css'
+import '../css/IconBarStyle.css'
 
 export default function IconBar() {
   return (
-    <div className='barraIcono'>IconBar</div>
+    <div className='container barraIcono'>
+      <p>Planifica tu viaje</p>
+    </div>
   )
 }

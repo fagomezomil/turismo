@@ -1,32 +1,154 @@
+.barrita{
+  background-color: #dac9c7;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  margin-bottom: 10px;
+}
 .header-style {
-    height: 100px;
+    min-height: 100px;
     background: #ffffff;
     z-index: 99;
     box-shadow: 0px -1px 15px 3px rgba(0,0,0,0.44);
     position: fixed;
+    margin-top: 24px;
   }
   
+  .nav-link {
+    padding-top: 0 !important;
+    padding-bottom: 7px;
+    
+  }
+
+  .navbar-menu-extended {
+    margin-top: 30px;
+  }
+  
+  .nav-style {
+    z-index: 100;
+  }
+
+  .dropdown-toggle::after {
+    display:none;
+}
+    
+  .dropdown-menu {
+    background-color: #c1b4b2 !important;
+  }
+  .dropdown-menu .show{
+    background-color: #c1b4b2 !important;    
+  }
+
+  .dropdown-menu[data-bs-popper] {
+    left: -17px;
+    margin-top: var(--bs-dropdown-spacer);
+    text-align: left;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+  
+  /* .dropdown .dropdown-menu {
+    -webkit-appearance: none;
+    appearance: none;
+  } */
+
+.dropdown-menu hr {
+  margin: 6px;
+  border-color: #ffffff;
+}
+
+.enlace-nav-nounderline {
+  font-weight: 600;
+  color: #85bd3c !important;
+}
+
+.enlace-nav-nounderline:active {
+  font-weight: 600;
+  color: rgb(83, 69, 69) !important;
+}
+
+  .enlaceNav-dropdown {
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: left;
+  }
+  .enlaceNav-dropdown:hover {
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #85bd3c;
+    text-align: left;
+  }
+  .enlaceNav-dropdown:focus {
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #6e6e6e;
+    text-align: left;
+  }
+
+  .enlaceNav{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(121, 121, 121);
+}
+
+
+.navigation .active{
+  font-weight: 600;
+  color: #85bd3c !important;
+  border-bottom: 2px solid #85bd3c;
+  transition: all 0.1s ease-out;
+  /* padding: 8px 0px 17px 0px; */
+  z-index: 1;
+  
+}
+
+.enlaceNav:hover{
+  font-weight: 600;
+  color: rgb(83, 69, 69) !important;
+  border-bottom: 2px solid #85bd3c;
+  transition: all 0.1s ease-out;
+  /* padding: 8px 0px 17px 0px; */
+  
+}
+
+
+
+.social-media {
+  text-align: end;
+
+}
+
+
+
+.social-media p {
+  font-weight: 700;
+  font-size: 12px;
+  color: #968c87;
+  margin: 26px 0px 0px 0px;
+}
+
+.social-icons img {
+  height: 19px;
+  margin: 5px 0px 0px 13px;
+}
+
 .logo-header {
     height: 55px;
     margin-top: 20px;
-    margin-right: 20px;
-    float: right;
+    /* margin-right: 20px; */
+
+    /* float: right; */
 }
 
-.font-navbar{
-  font-weight: 500;
+.redes-logo {
+  right: 20%;
 }
 
-.enlaceNav{
-  font-weight: 600;
-  color: rgb(121, 121, 121);
-}
-
-.active{
-  font-weight: 600;
-  color: rgb(0, 166, 6) !important;
-  border-bottom: 2px solid rgb(0, 186, 28);
-  /* padding: 8px 0px 17px 0px; */
-}
 
 
