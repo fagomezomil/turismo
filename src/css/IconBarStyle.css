@@ -1,5 +1,53 @@
-.barraIcono{
-    height: 120px;
-    background-color: rgb(171, 185, 173);
-
+.containerBarraIcono {
+    background-color: #8d807e;
 }
+.barraIconoDropdown{
+    margin-left: 0;
+}
+
+
+
+.titleIconBar{
+    font-size: 2rem;
+    color: white;
+    font-weight: 300;
+    background-color: #85bd3c;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    max-width: 250px;
+    text-align: center;
+}
+
+.IconStyleBar {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+.tituloIcon {
+    font-size: 0.9rem;
+    font-weight: 600;
+    min-width: 70px;
+    color: white;
+}
+
+
+
+.navLinkIconBar {
+    width: auto;
+}
+.navLinkIconBar:hover {
+    background-color: #c1b4b2;
+}
+.navLinkIconBar:focus {
+    background-color: #85bd3c;
+}
+
+
+
+.contenidoItemBar {
+    padding: 15px 20px 15px 20px;
+}
+

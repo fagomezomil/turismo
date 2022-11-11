@@ -1,0 +1,27 @@
+.titleIconItemBar{
+    font-size: 28pt;
+    line-height: 28pt;
+    padding: 25px 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #524b49;
+}
+
+.textIconItemBar{
+    font-size: 13pt;
+    line-height: 17pt;
+    padding: 10px 20px 10px 10px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.imageItemBar {
+    background-color: #c1b4b2;
+    margin: 0;
+    padding: 0;
+}
+.imageItemBar img {
+    object-fit: cover;
+    padding: 0px;
+}

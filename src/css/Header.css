@@ -1,10 +1,4 @@
-.barrita{
-  background-color: #dac9c7;
-  position: fixed;
-  width: 100%;
-  z-index: 100;
-  margin-bottom: 10px;
-}
+
 .header-style {
     min-height: 100px;
     background: #ffffff;

@@ -13,9 +13,6 @@ import Naturaleza from './pages/Naturaleza';
 import HistoriaCultura from './pages/HistoriaCultura';
 import SideNav from './components/SideNav';
 
-// PARA SUMAR EL CLIMA
-// https://www.npmjs.com/package/react-open-weather
-// https://openweathermap.org/appid
 
 function App() {
   const [sidebarOpen, setSideBarOpen] = useState(false);

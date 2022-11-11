@@ -2,6 +2,7 @@ import React from "react";
 import "../css/Header.css";
 import NavBarNormal from "./NavBarNormal";
 import NavBarCollapes from "./NavBarCollapes";
+import UpperBar from "./UpperBar"
 import Logo from "../img/marcatucuman.svg";
 import facebook from "../img/header/facebook.svg"
 import ig from "../img/header/ig.svg"
@@ -10,16 +11,12 @@ import twiter from "../img/header/twiter.svg"
 
 
 
+
 export default function header() {
 
   return (
     <>
-      <div className="container-fluid barrita">
-        <div className="container">
-          
-          <div className="row">Comunicate y conocé todo de Tucumán</div>
-          </div>
-      </div>
+    <UpperBar />
     <div className="container-fluid header-style ">
       <div className="container">
         <div className="row justify-content-between justify-content-md-between  justify-content-xl-around">
@@ -47,9 +44,9 @@ export default function header() {
           <div className="col d-block d-md-block d-lg-block d-xl-none mt-4 mb-3 w-auto">
             <NavBarCollapes />
           </div>
-          <div className="col-6 col-sm-10 col-md-11 d-md-block d-lg-block d-xl-none d-xxl-none position-absolute redes-logo">
-            <div className="row social-media w-auto justify-content-end">
-              <div className="col-10">
+          <div className="col-12 col-sm-12 col-md-12 d-md-block d-lg-block d-xl-none d-xxl-none position-absolute">
+            <div className="row social-media me-4 ">
+              <div className="col-10 col-sm-11">
                 <p>Sumate</p>
                 <div className="social-icons">
                   <img src={facebook} alt="" />
@@ -57,7 +54,7 @@ export default function header() {
                   <img src={twiter} alt="" />
                 </div>
               </div>
-              <div className="col-2">
+              <div className="col-2 col-sm-1">
                 <img src={Logo} alt="" className="logo-header" />
               </div>
             </div>
