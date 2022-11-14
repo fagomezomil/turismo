@@ -1,40 +1,30 @@
 .containerBarraIcono {
     background-color: #8d807e;
 }
-.barraIconoDropdown{
-    margin-left: 0;
+.contenidoItemBar {
+    padding: 15px 20px 15px 20px;
 }
-
-
-
 .titleIconBar{
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: white;
     font-weight: 300;
     background-color: #85bd3c;
     /* border-top-left-radius: 10px;
     border-top-right-radius: 10px; */
-    max-width: 250px;
+    max-width: 280px;
     text-align: center;
 }
-
 .IconStyleBar {
     text-align: center;
     font-size: 30px;
     color: white;
 }
-
-
-
 .tituloIcon {
     font-size: 0.9rem;
     font-weight: 600;
     min-width: 70px;
     color: white;
 }
-
-
-
 .navLinkIconBar {
     width: auto;
 }
@@ -47,7 +37,59 @@
 
 
 
-.contenidoItemBar {
-    padding: 15px 20px 15px 20px;
+
+.barraIconoDropdown{
+    margin-left: 0;
 }
+
+/*Drop down button style*/
+.titleDropMobile{
+    font-size: 15pt;
+    font-weight: 600;
+}
+.titleDropMobileIcon{
+    font-size: 18pt;
+    font-weight: 600;
+    padding-bottom: 4px;
+}
+.dropDownStyleMobile{
+    background-color: #8d807e;
+    border-radius: 0;
+}
+.dropDownStyleMobile:hover{
+    background-color: #578120;
+    border-radius: 0;
+}
+.dropDownStyleMobile:focus{
+    background-color: #578120;
+    border-radius: 0;
+    outline-color: #85bd3c;
+}
+
+/*Drop down items style*/
+.navLinkIconBarMobile {
+    background-color: #8d807e;
+    width: auto;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.navLinkIconBarMobile:hover {
+    background-color: #85bd3c;
+}
+.navLinkIconBarMobile:focus {
+    background-color: #85bd3c;
+} 
+
+.IconStyleBarMobile {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.tituloIconMobile {
+    font-size: 13pt;
+    font-weight: 600;
+    min-width: 70px;
+    color: white;
+}
+
 

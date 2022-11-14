@@ -2,10 +2,11 @@ import React, { useState } from 'react'
 import '../css/IconBarStyle.css'
 import { RiHotelBedFill } from 'react-icons/ri'
 import { FaBusAlt, FaHiking } from 'react-icons/fa'
+import { HiArrowCircleLeft } from 'react-icons/hi'
 import { AiFillCar, AiTwotoneShop, AiFillFlag, AiFillSchedule } from 'react-icons/ai'
 import Image1IconBar from '../img/iconBar/image1IconBar.jpg'
 import { NavLink } from 'react-router-dom'
-import { Nav } from 'react-bootstrap'
+import { Nav, Dropdown } from 'react-bootstrap'
 import CardIconBar from './cardIconBar'
 import DataIconBar from '../data/DataIconBar'
 
@@ -16,7 +17,8 @@ export default function IconBar() {
   return (
     <>
       <div className='container titleIconBar'>
-        <span> Planifica tu viaje</span>
+        <span> PLANIFICÁ TU VIAJE
+        </span>
       </div>
       <div className='container containerBarraIcono p-0'>
         <div className="row barraIcono">
@@ -96,84 +98,73 @@ export default function IconBar() {
         </div>
         <div className="row barraIconoDropdown">
           <div className="col nav  d-block d-md-block d-lg-none d-xl-none d-xxl-none">
-            <div className="dropdown">
-              <div className="btn btn-secondary dropdown-toggle w-100" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown link
-              </div>
+            <Dropdown>
+              <Dropdown.Toggle className='dropDownStyleMobile w-100 mb-0' id="dropdown-basic">
+                <span className='titleDropMobile'>Comenzá tu itinerario aquí</span>  <HiArrowCircleLeft className='titleDropMobileIcon' />
+              </Dropdown.Toggle>
 
-              <ul className="dropdown-menu w-100" aria-labelledby="dropdownMenuLink">
-              <Nav.Link to="/" as={NavLink} onClick={() => setActiveCardIconBar("Alojamiento")} className="navLinkIconBar">
-              <div className="ItemIconBar">
-                <div className="IconStyleBar">
-                  <RiHotelBedFill />
-                </div>
-                <div className="tituloIcon">
-                  Alojamiento
-                </div>
-              </div>
-            </Nav.Link>
-            <Nav.Link to="/" as={NavLink} onClick={() => setActiveCardIconBar("Transporte urbano")} className="navLinkIconBar">
-              <div className="ItemIconBar">
-                <div className="IconStyleBar">
-                  <FaBusAlt />
-                </div>
-                <div className="tituloIcon">
-                  Transporte urbano
-                </div>
-              </div>
-            </Nav.Link>
-            <Nav.Link to="/" as={NavLink} onClick={() => setActiveCardIconBar("Alquiler de autos")} className="navLinkIconBar">
-              <div className="ItemIconBar">
-                <div className="IconStyleBar">
-                  <AiFillCar />
-                </div>
-                <div className="tituloIcon">
-                  Alquiler de autos
-                </div>
-              </div>
-            </Nav.Link>
-            <Nav.Link to="/" as={NavLink} onClick={() => setActiveCardIconBar("Prestadores activos")} className="navLinkIconBar">
-              <div className="ItemIconBar">
-                <div className="IconStyleBar">
-                  <FaHiking />
-                </div>
-                <div className="tituloIcon">
-                  Prestadores Activos
-                </div>
-              </div>
-            </Nav.Link>
-            <Nav.Link to="/" as={NavLink} onClick={() => setActiveCardIconBar("Agencias")} className="navLinkIconBar">
-              <div className="ItemIconBar">
-                <div className="IconStyleBar">
-                  <AiTwotoneShop />
-                </div>
-                <div className="tituloIcon">
-                  Agencias
-                </div>
-              </div>
-            </Nav.Link>
-            <Nav.Link to="/" as={NavLink} onClick={() => setActiveCardIconBar("Guias de turismo")} className="navLinkIconBar">
-              <div className="ItemIconBar">
-                <div className="IconStyleBar">
-                  <AiFillFlag />
-                </div>
-                <div className="tituloIcon">
-                  Guías de turismo
-                </div>
-              </div>
-            </Nav.Link>
-            <Nav.Link to="/" as={NavLink} onClick={() => setActiveCardIconBar("Itinerarios")} className="navLinkIconBar">
-              <div className="ItemIconBar">
-                <div className="IconStyleBar">
-                  <AiFillSchedule />
-                </div>
-                <div className="tituloIcon">
-                  Itinerarios
-                </div>
-              </div>
-            </Nav.Link>
-              </ul>
-            </div>
+              <Dropdown.Menu className='w-100 text-center rounded-0 mt-0 p-0 dropDownStyleMobile'>
+                <Dropdown.Item className='p-0 m-0'>
+                  <Nav.Link to="/" as={NavLink} onClick={() => setActiveCardIconBar("Alojamiento")} className="navLinkIconBarMobile">
+                    
+                      <div className="tituloIconMobile">
+                        <RiHotelBedFill className="IconStyleBarMobile" /><span className='ps-2'>Alojamiento</span> 
+                      </div>
+                    
+                  </Nav.Link>
+                </Dropdown.Item>
+                <Dropdown.Divider className='m-0' />
+                <Dropdown.Item className='p-0 m-0'>
+                  <Nav.Link to="/" as={NavLink} onClick={() => setActiveCardIconBar("Transporte urbano")} className="navLinkIconBarMobile">                    
+                      <div className="tituloIconMobile">
+                        <FaBusAlt className="IconStyleBarMobile" /><span className='ps-2'>Transporte urbano</span> 
+                      </div>                    
+                  </Nav.Link>
+                </Dropdown.Item>
+                <Dropdown.Divider className='m-0' />
+                <Dropdown.Item className='p-0 m-0'>
+                  <Nav.Link to="/" as={NavLink} onClick={() => setActiveCardIconBar("Alquiler de autos")} className="navLinkIconBarMobile">                    
+                      <div className="tituloIconMobile">
+                        <AiFillCar className="IconStyleBarMobile" /><span className='ps-2'>Alguiler de autos</span> 
+                      </div>                    
+                  </Nav.Link>
+                </Dropdown.Item>
+                <Dropdown.Divider className='m-0' />
+                <Dropdown.Item className='p-0 m-0'>
+                  <Nav.Link to="/" as={NavLink} onClick={() => setActiveCardIconBar("Prestadores activos")} className="navLinkIconBarMobile">                    
+                      <div className="tituloIconMobile">
+                        <FaHiking className="IconStyleBarMobile" /><span className='ps-2'>Prestadores activos</span> 
+                      </div>                    
+                  </Nav.Link>
+                </Dropdown.Item>
+                <Dropdown.Divider className='m-0' />
+                <Dropdown.Item className='p-0 m-0'>
+                  <Nav.Link to="/" as={NavLink} onClick={() => setActiveCardIconBar("Agencias")} className="navLinkIconBarMobile">                    
+                      <div className="tituloIconMobile">
+                        <AiTwotoneShop className="IconStyleBarMobile" /><span className='ps-2'>Agencias</span> 
+                      </div>                    
+                  </Nav.Link>
+                </Dropdown.Item>
+                <Dropdown.Divider className='m-0' />
+                <Dropdown.Item className='p-0 m-0'>
+                  <Nav.Link to="/" as={NavLink} onClick={() => setActiveCardIconBar("Guias de turismo")} className="navLinkIconBarMobile">                    
+                      <div className="tituloIconMobile">
+                        <AiFillFlag className="IconStyleBarMobile " /><span className='ps-2'>Guías de turismo</span> 
+                      </div>                    
+                  </Nav.Link>
+                </Dropdown.Item>
+                <Dropdown.Divider className='m-0' />
+                <Dropdown.Item className='p-0 m-0'>
+                  <Nav.Link to="/" as={NavLink} onClick={() => setActiveCardIconBar("Itinerarios")} className="navLinkIconBarMobile">                    
+                      <div className="tituloIconMobile">
+                        <AiFillSchedule className="IconStyleBarMobile" /><span className='ps-2'>Itinerarios</span> 
+                      </div>                    
+                  </Nav.Link>
+                </Dropdown.Item>
+                
+                
+              </Dropdown.Menu>
+            </Dropdown>
           </div>
         </div>
         {activeCardIconBar === "Alojamiento" && <CardIconBar DataIconBar={DataIconBar} cardDataIndex={0} />}

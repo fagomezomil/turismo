@@ -7,10 +7,10 @@ const CardIconBar = ({DataIconBar, cardDataIndex}) => {
             {DataIconBar[cardDataIndex].map(item =>( 
 
         <div key={cardDataIndex} className="row m-0 p-0">
-          <div className="col-5 pe-0 ps-0">
-            <p className='titleIconItemBar'>{item.title}</p>
+          <div className="col-12 col-lg-5 pe-0 ps-0">
+            <p className='titleIconItemBar text-center text-md-start'>{item.title}</p>
             <p className='textIconItemBar'>{item.text}</p></div>
-          <div className="col-7 imageItemBar">
+          <div className="col-lg-7 imageItemBar">
             <img src={Image1IconBar} alt="" className='img-fluid' />
           </div>
         </div>
