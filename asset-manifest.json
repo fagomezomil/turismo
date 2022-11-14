@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/turismo/static/css/main.f8f877af.css",
-    "main.js": "/turismo/static/js/main.d2dd59df.js",
+    "main.css": "/turismo/static/css/main.5e73b5d2.css",
+    "main.js": "/turismo/static/js/main.2bf59814.js",
     "static/js/787.7ae74a03.chunk.js": "/turismo/static/js/787.7ae74a03.chunk.js",
     "static/media/video2cerrocruz.mp4": "/turismo/static/media/video2cerrocruz.20a13cb8bf3e604c4016.mp4",
     "static/media/video1kayak.mp4": "/turismo/static/media/video1kayak.7d623fe8427876f5c2b3.mp4",
@@ -12,12 +12,12 @@
     "index.html": "/turismo/index.html",
     "static/media/ig.svg": "/turismo/static/media/ig.6212317ad33e0c89f154ea114df2f20f.svg",
     "static/media/facebook.svg": "/turismo/static/media/facebook.203dbd06650e6fa75b4bcc94cbb4a58a.svg",
-    "main.f8f877af.css.map": "/turismo/static/css/main.f8f877af.css.map",
-    "main.d2dd59df.js.map": "/turismo/static/js/main.d2dd59df.js.map",
+    "main.5e73b5d2.css.map": "/turismo/static/css/main.5e73b5d2.css.map",
+    "main.2bf59814.js.map": "/turismo/static/js/main.2bf59814.js.map",
     "787.7ae74a03.chunk.js.map": "/turismo/static/js/787.7ae74a03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8f877af.css",
-    "static/js/main.d2dd59df.js"
+    "static/css/main.5e73b5d2.css",
+    "static/js/main.2bf59814.js"
   ]
 }
