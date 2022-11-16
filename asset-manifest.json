@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/turismo/static/css/main.5e73b5d2.css",
-    "main.js": "/turismo/static/js/main.2bf59814.js",
+    "main.css": "/turismo/static/css/main.4aaf6a26.css",
+    "main.js": "/turismo/static/js/main.3984ceb4.js",
     "static/js/787.7ae74a03.chunk.js": "/turismo/static/js/787.7ae74a03.chunk.js",
     "static/media/video2cerrocruz.mp4": "/turismo/static/media/video2cerrocruz.20a13cb8bf3e604c4016.mp4",
     "static/media/video1kayak.mp4": "/turismo/static/media/video1kayak.7d623fe8427876f5c2b3.mp4",
     "static/media/image1IconBar.jpg": "/turismo/static/media/image1IconBar.120730cc5eb3fd5fbb12.jpg",
+    "static/media/revicons.eot": "/turismo/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/turismo/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/turismo/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/twiter.svg": "/turismo/static/media/twiter.de76f4587b48d1c8a171aa09a350a20b.svg",
     "static/media/marcatucuman.svg": "/turismo/static/media/marcatucuman.e4f80a0c0c3ded50ae92403dfbf75622.svg",
     "static/media/idea.svg": "/turismo/static/media/idea.e8796c344e4426b40ed6aaf2bfb9bbaf.svg",
     "index.html": "/turismo/index.html",
     "static/media/ig.svg": "/turismo/static/media/ig.6212317ad33e0c89f154ea114df2f20f.svg",
     "static/media/facebook.svg": "/turismo/static/media/facebook.203dbd06650e6fa75b4bcc94cbb4a58a.svg",
-    "main.5e73b5d2.css.map": "/turismo/static/css/main.5e73b5d2.css.map",
-    "main.2bf59814.js.map": "/turismo/static/js/main.2bf59814.js.map",
+    "main.4aaf6a26.css.map": "/turismo/static/css/main.4aaf6a26.css.map",
+    "main.3984ceb4.js.map": "/turismo/static/js/main.3984ceb4.js.map",
     "787.7ae74a03.chunk.js.map": "/turismo/static/js/787.7ae74a03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e73b5d2.css",
-    "static/js/main.2bf59814.js"
+    "static/css/main.4aaf6a26.css",
+    "static/js/main.3984ceb4.js"
   ]
 }
