@@ -7,12 +7,14 @@
 .titleIconBar{
     font-size: 1.8rem;
     color: white;
-    font-weight: 300;
+    font-weight: 400;
     background-color: #85bd3c;
     /* border-top-left-radius: 10px;
     border-top-right-radius: 10px; */
-    max-width: 280px;
+    max-width: 290px;
     text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 .IconStyleBar {
     text-align: center;

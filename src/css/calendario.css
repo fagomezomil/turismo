@@ -1,0 +1,49 @@
+.titleCalendario {
+    font-size: 28pt;
+    font-weight: 700;
+    color: #85bd3c;
+    margin-bottom: 10px !important;
+}
+
+.btnActividades {
+    background-color: #DED5D3;
+    border: none;
+    color: rgb(78, 82, 78);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.bajadaCalendario {
+    font-size: 13pt;
+    line-height: 17pt;
+    font-weight: 500;
+    color: rgb(52, 55, 52);
+}
+
+.itemCalendario {
+
+}
+
+.itemCalendario span {
+    background-color: #85bd3c;
+    color: white;
+    font-size: 13pt;
+    font-weight: 700;
+    padding: 10px 10px 8px 10px;
+}
+
+.itemCalendario p {
+    margin-top: 7px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: #DED5D3;
+    font-size: 11pt;
+    font-weight: 700;
+    color: rgb(78, 82, 78);
+}

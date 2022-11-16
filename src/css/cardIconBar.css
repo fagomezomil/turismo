@@ -10,18 +10,35 @@
 .textIconItemBar{
     font-size: 13pt;
     line-height: 17pt;
-    padding: 10px 20px 10px 10px;
+    padding: 10px 20px;
     font-weight: 500;
-    color: white;
+    color: rgb(52, 55, 52);
 
+}
+
+.containerCard {
+    background-color: #ded5d3;
+}
+
+.containerCard button {
+    background: rgba(125, 190, 13);
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    border: 0;
+    color: white;
+    padding: 7px 20px;
+    font-weight: 600
 }
 
 .imageItemBar {
     background-color: #c1b4b2;
     margin: 0;
     padding: 0;
-}
-.imageItemBar img {
-    object-fit: cover;
-    padding: 0px;
+    background-image: url(https://www.institucionalturismotuc.gob.ar/public/img/brasileros6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    max-height: 500px;
 }
