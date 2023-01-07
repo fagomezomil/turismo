@@ -18,7 +18,7 @@
 }
 .IconStyleBar {
     text-align: center;
-    font-size: 30px;
+    font-size: clamp(24px, 10vw, 30px);
     color: white;
 }
 .tituloIcon {
@@ -28,7 +28,9 @@
     color: white;
 }
 .navLinkIconBar {
-    width: auto;
+    padding-right: 13px;
+    padding-left: 13px;
+    text-align: center;
 }
 .navLinkIconBar:hover {
     background-color: #c1b4b2;

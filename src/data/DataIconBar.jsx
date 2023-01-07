@@ -41,6 +41,12 @@ const DataIconBar = [
             text: "ajsldlaksjd aksdjal ksdjbawk bdlkwa jdbak jwdbalw kdbakwd jba wkdjbakwdj bawk djbawkdj bak wdjbawkjdb alkjdb awlkjdba wlk djawbdkj abwldkj akdj ablwkdj bawkdj."
         }
     ],
+    [
+        {
+            title:"Mapas",
+            text: "ajsldlaksjd aksdjal ksdjbawk bdlkwa jdbak jwdbalw kdbakwd jba wkdjbakwdj bawk djbawkdj bak wdjbawkjdb alkjdb awlkjdba wlk djawbdkj abwldkj akdj ablwkdj bawkdj."
+        }
+    ],
 ];
 
 export default DataIconBar;

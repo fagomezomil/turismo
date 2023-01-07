@@ -1,0 +1,24 @@
+.titleProductosInicio {
+    font-size: 39pt;
+    color: rgb(128, 119, 119);
+    font-weight: 200;
+    line-height: 48pt;
+}
+
+.titleProductosInicio strong {
+    font-size: 39pt;
+    color: #85bd3c;
+    font-weight: 500;
+
+}
+
+
+
+.bgTitleProductos {
+    background-image: url(../img/productosInicio/bgTitleProductos.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    max-height: fit-content;
+    background-position: left center;
+}

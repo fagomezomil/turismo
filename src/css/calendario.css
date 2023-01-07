@@ -1,8 +1,9 @@
 .titleCalendario {
-    font-size: 28pt;
-    font-weight: 700;
+    font-size: 36pt;
+    font-weight: 500;
     color: #85bd3c;
     margin-bottom: 10px !important;
+    line-height: 48pt;
 }
 
 .btnActividades {
@@ -15,6 +16,8 @@
     font-style: italic;
     font-size: 13px;
     font-weight: 600;
+    width: fit-content;
+    margin-left: 10px;
 }
 
 .bajadaCalendario {
@@ -31,19 +34,50 @@
 .itemCalendario span {
     background-color: #85bd3c;
     color: white;
-    font-size: 13pt;
+    font-size: 11pt;
     font-weight: 700;
     padding: 10px 10px 8px 10px;
 }
 
 .itemCalendario p {
+
+}
+
+.bannerSection hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(166,166,166,1) 50%, rgba(255,255,255,0) 100%); */
+}
+
+.modal-content {
+    background: none;
+    border: none;
+}
+
+.modalHeader {
+    background-color: rgb(78, 82, 78) ;
+    border-radius: 0;
+}
+
+.titulo-evento {
     margin-top: 7px;
     margin-bottom: 0;
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
     background-color: #DED5D3;
-    font-size: 11pt;
+    font-size: 13pt;
     font-weight: 700;
     color: rgb(78, 82, 78);
+}
+
+.btn-cerrar {
+    background-color: #85bd3c;
+    font-size: 12pt;
+    font-weight: 700;
+    color: white;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-color: 0;
+    border: 0;
 }

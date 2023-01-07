@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../css/IconBarStyle.css'
 import { RiHotelBedFill } from 'react-icons/ri'
-import { FaBusAlt, FaHiking } from 'react-icons/fa'
+import { FaBusAlt, FaHiking, FaMap } from 'react-icons/fa'
 import { HiArrowCircleLeft } from 'react-icons/hi'
 import { AiFillCar, AiTwotoneShop, AiFillFlag, AiFillSchedule } from 'react-icons/ai'
 import Image1IconBar from '../img/iconBar/image1IconBar.jpg'
@@ -21,8 +21,8 @@ export default function IconBar() {
         </span>
       </div>
       <div className='container containerBarraIcono p-0'>
-        <div className="row barraIcono">
-          <div className="col d-flex flex-wrap justify-content-evenly nav d-inline d-none d-md-none d-lg-flex">
+        <div className="row barraIcono m-0">
+          <div className="col d-flex flex-wrap justify-content-evenly nav d-inline d-none d-md-none d-lg-flex pe-0">
             <Nav.Link to="/" as={NavLink} onClick={() => setActiveCardIconBar("Alojamiento")} className="navLinkIconBar">
               <div className="ItemIconBar">
                 <div className="IconStyleBar">
@@ -90,6 +90,16 @@ export default function IconBar() {
                 </div>
                 <div className="tituloIcon">
                   Itinerarios
+                </div>
+              </div>
+            </Nav.Link>
+            <Nav.Link to="/" as={NavLink} onClick={() => setActiveCardIconBar("Mapas")} className="navLinkIconBar">
+              <div className="ItemIconBar">
+                <div className="IconStyleBar">
+                  <FaMap />
+                </div>
+                <div className="tituloIcon text-center">
+                  Mapas
                 </div>
               </div>
             </Nav.Link>
@@ -161,6 +171,14 @@ export default function IconBar() {
                       </div>                    
                   </Nav.Link>
                 </Dropdown.Item>
+                <Dropdown.Divider className='m-0' />
+                <Dropdown.Item className='p-0 m-0'>
+                  <Nav.Link to="/" as={NavLink} onClick={() => setActiveCardIconBar("Mapas")} className="navLinkIconBarMobile">                    
+                      <div className="tituloIconMobile">
+                        <FaMap className="IconStyleBarMobile" /><span className='ps-2'>Mapas</span> 
+                      </div>                    
+                  </Nav.Link>
+                </Dropdown.Item>
                 
                 
               </Dropdown.Menu>
@@ -174,6 +192,7 @@ export default function IconBar() {
         {activeCardIconBar === "Agencias" && <CardIconBar DataIconBar={DataIconBar} cardDataIndex={4} />}
         {activeCardIconBar === "Guias de turismo" && <CardIconBar DataIconBar={DataIconBar} cardDataIndex={5} />}
         {activeCardIconBar === "Itinerarios" && <CardIconBar DataIconBar={DataIconBar} cardDataIndex={6} />}
+        {activeCardIconBar === "Mapas" && <CardIconBar DataIconBar={DataIconBar} cardDataIndex={7} />}
       </div>
     </>
   )
