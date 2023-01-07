@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/turismo/static/css/main.4aaf6a26.css",
-    "main.js": "/turismo/static/js/main.3984ceb4.js",
+    "main.css": "/turismo/static/css/main.41761392.css",
+    "main.js": "/turismo/static/js/main.1f79d746.js",
     "static/js/787.7ae74a03.chunk.js": "/turismo/static/js/787.7ae74a03.chunk.js",
     "static/media/video2cerrocruz.mp4": "/turismo/static/media/video2cerrocruz.20a13cb8bf3e604c4016.mp4",
     "static/media/video1kayak.mp4": "/turismo/static/media/video1kayak.7d623fe8427876f5c2b3.mp4",
+    "static/media/bgTitleProductos.JPG": "/turismo/static/media/bgTitleProductos.b6a5b80c5ed0fbce0888.JPG",
     "static/media/image1IconBar.jpg": "/turismo/static/media/image1IconBar.120730cc5eb3fd5fbb12.jpg",
     "static/media/revicons.eot": "/turismo/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/turismo/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -15,12 +16,12 @@
     "index.html": "/turismo/index.html",
     "static/media/ig.svg": "/turismo/static/media/ig.6212317ad33e0c89f154ea114df2f20f.svg",
     "static/media/facebook.svg": "/turismo/static/media/facebook.203dbd06650e6fa75b4bcc94cbb4a58a.svg",
-    "main.4aaf6a26.css.map": "/turismo/static/css/main.4aaf6a26.css.map",
-    "main.3984ceb4.js.map": "/turismo/static/js/main.3984ceb4.js.map",
+    "main.41761392.css.map": "/turismo/static/css/main.41761392.css.map",
+    "main.1f79d746.js.map": "/turismo/static/js/main.1f79d746.js.map",
     "787.7ae74a03.chunk.js.map": "/turismo/static/js/787.7ae74a03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4aaf6a26.css",
-    "static/js/main.3984ceb4.js"
+    "static/css/main.41761392.css",
+    "static/js/main.1f79d746.js"
   ]
 }
